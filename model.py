@@ -2,7 +2,7 @@ import openai
 from transformers import AutoTokenizer, AutoModelForCausalLM, ConversationalPipeline
 
 # Set your OpenAI API key
-openai.api_key = "sk-proj-5ikESwFlZUnLA3XaHfuaT3BlbkFJvFZaz7k8me9CXsOkpjgX"
+openai.api_key = "OPENAI_KEY"
 
 # Define your dataset consisting of documents, questions, and answers
 dataset = [
