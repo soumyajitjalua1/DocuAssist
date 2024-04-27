@@ -48,7 +48,7 @@ def get_relevant_context(user_input, text):
 
 # Function to interact with OpenAI model
 def ollama_chat(user_input):
-    client = openai.Client(api_key='sk-proj-5ikESwFlZUnLA3XaHfuaT3BlbkFJvFZaz7k8me9CXsOkpjgX')  # Replace 'your_api_key' with your actual API key
+    client = openai.Client(api_key='OPENAI_KEY')  # Replace 'your_api_key' with your actual API key
     response = client.completions.create(
         model="text-davinci-003",
         prompt=user_input,
